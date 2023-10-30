@@ -13,6 +13,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddApplicationServices();
+
 using SqliteConnection connection = new("Filename=:memory:");
 await connection.OpenAsync();
 
