@@ -44,7 +44,7 @@ public sealed class TodoControllerTests
         var sut = CreateSut(todoService);
 
         // Act
-        var result = await sut.DeleteTodoItemAsync(1, CancellationToken.None) as NotFoundResult;
+        var result = await sut.DeleteTodoItemAsync(1, CancellationToken.None);
 
         // Assert
         _ = result.Should().NotBeNull()

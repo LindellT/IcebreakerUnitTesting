@@ -45,6 +45,7 @@
     <ProjectReference Include="..\Api\Api.csproj" />
     <ProjectReference Include="..\ApplicationServices\ApplicationServices.csproj" />
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+    <ProjectReference Include="..\SimpleApi\SimpleApi.csproj" />
   </ItemGroup>
 
 </Project>
